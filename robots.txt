@@ -1,0 +1,54 @@
+# ---------------------------------------------
+# Robots.txt for ravichandanjaiswal.netlify.com
+# Fully optimized for Google, AI crawlers & SEO
+# ---------------------------------------------
+
+# Allow all major search engines & AI crawlers
+User-agent: *
+Allow: /
+
+# Allow OpenAI GPTBot (used by ChatGPT search)
+User-agent: GPTBot
+Allow: /
+
+# Allow Google-Extended (Gemini AI training crawler)
+User-agent: Google-Extended
+Allow: /
+
+# Allow CCBot (Common Crawl used by Perplexity AI)
+User-agent: CCBot
+Allow: /
+
+# Allow Claude Bot (Anthropic AI)
+User-agent: ClaudeBot
+Allow: /
+
+# Allow X AI crawler (Grok)
+User-agent: XBot
+Allow: /
+
+# Block no pages → full indexing of SEO pages
+Disallow:
+
+# ---------------------------------------------
+# Tell search engines where your sitemap is
+# ---------------------------------------------
+Sitemap: https://ravichandanjaiswal.netlify.com/sitemap.xml
+
+# ---------------------------------------------
+# Extra: Improve crawling speed & efficiency
+# ---------------------------------------------
+# Crawl-delay prevents overloading your site (optional)
+Crawl-delay: 1
+
+# ---------------------------------------------
+# Extra: Clean up unnecessary file indexing
+# ---------------------------------------------
+Disallow: /*.json$
+Disallow: /*.md$
+Disallow: /*.txt$  # except robots.txt
+Allow: /robots.txt
+
+# ---------------------------------------------
+# End of robots.txt
+# ---------------------------------------------

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">-
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google-site-verification" content="DBPgnJPUG8ranZCXF8RdxVavJIyfKehFCr2qAEoY-No" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000">
+  <title>My Portfolio</title>
+  <!-- Preload critical assets -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="navbar-container">
+      <div class="logo">
+        <h2>Ravi Chandan Jaiswal</h2>
+      </div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-icon" id="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- ✅ Mobile Slide Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="menu-header">
+      <h2>Menu</h2>
+      <span class="close-menu" id="close-menu">&times;</span>
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>"I design what people feel <br>And <span>build</span> what they <span>Believe"</span></h1>
+        <p>
+          Explore <span>my work</span> and see how creativity turns ideas into
+          <span>reality</span>.
+          <br>I ensure your ideas come alive exactly as you imagine.
+        </p>
+        <div class="hero-actions">
+          <a href="RaviChandanJaiswalResume.pdf"><button>View My Resume</button></a>
+        </div>
+      </div>
+    </section>
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span class="ticker-item">Full Stack Web Developer</span>
+        <span class="ticker-item">No-Code Website Expert</span>
+        <span class="ticker-item">Professional Video Editor</span>
+        <span class="ticker-item">Graphic Designer</span>
+        <span class="ticker-item">Content Creator</span>
+        <span class="ticker-item">Advance Excel</span>
+        <span class="ticker-item">Advance Diploma in Finance and Accounting</span>
+      </div>
+    </div>
+    <!-- Live region for screen readers (keeps visual ticker unchanged) -->
+    <div id="ticker-live" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+    <!-- ===================== ABOUT SECTION ===================== -->
+    <section id="about" class="about-section">
+      <div class="about-container">
+
+        <!-- LEFT : IMAGE -->
+        <div class="about-image">
+          <img src="ravi.jpeg" alt="Ravi Chandan Jaiswal">
+        </div>
+
+        <!-- RIGHT : TEXT CONTENT -->
+        <div class="about-content">
+          <h2 class="about-title">About Me</h2>
+          <p class="about-text">
+            I'm <span>Ravi Chandan Jaiswal</span>, a Multi-Skilled Creator—
+            <strong>Full Stack Developer | Creator | Entrepreneur | Founder of Lurnxo.</strong>
+            I convert ideas into digital experiences through clean design, strong development, and powerful creativity.
+          </p>
+
+          <h3 class="about-subtitle">About Lurnxo & Lurnxo Innovation & Lurnxo Career</h3>
+          <p class="about-text">
+            I founded <strong>Lurnxo</strong> to build a future-ready ecosystem of education, technology, and
+            innovation.
+            From that vision emerged <strong>Lurnxo Innovation and Lurnxo Career </strong> — a service-based company offering
+            <strong>website development, app prototypes, AI solutions, branding, automation, business systems, and
+              digital transformation services. Lurnco Career - Helping students find jobs, internships & skill-building pathways</strong>
+          </p>
+
+          <p class="about-text">
+            Today, Lurnxo and its branches operate with one mission:
+            <strong>“To create simple, powerful solutions that help people and businesses grow.”</strong>
+          </p>
+
+          <a href="#contact" class="about-btn">Let’s Connect</a>
+        </div>
+      </div>
+    </section>
+    <!-- Desktop View (Static Cards) -->
+    <div class="skills-wrapper desktop-only" id="skills">
+      <div class="skills-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Frontend Development</h3>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%"></div>
+        </div>
+        <p>HTML, CSS, JavaScript, React, Tailwind CSS</p>
+      </div>
+
+      <div class="skills-card">
+        <i class="fa-solid fa-server"></i>
+        <h3>Backend Development</h3>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%"></div>
+        </div>
+        <p> C-language, c++, Python, Django, SQL</p>
+      </div>
+
+      <div class="skills-card">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <h3>No-Code Expert</h3>
+        <div class="progress">
+          <div class="progress-bar" style="width: 95%"></div>
+        </div>
+        <p>WordPress, Shopify, AI Builders</p>
+      </div>
+
+      <div class="skills-card">
+        <i class="fa-solid fa-pen-nib"></i>
+        <h3>Design & Editing</h3>
+        <div class="progress">
+          <div class="progress-bar" style="width: 88%"></div>
+        </div>
+        <p>Photoshop, Illustrator, Premiere Pro ,After Effects , Blender</p>
+      </div>
+
+      <div class="skills-card">
+        <i class="fa-solid fa-bolt"></i>
+        <h3>Additional Skills</h3>
+        <div class="progress">
+          <div class="progress-bar" style="width: 88%"></div>
+        </div>
+        <p>Content Creation, Excel, Finance Diploma</p>
+      </div>
+    </div>
+
+    <!-- Mobile/Tablet Auto-Slider -->
+    <div class="skills-slider mobile-only">
+      <div class="skills-track">
+
+        <!-- Same cards duplicated for slider -->
+        <div class="skills-card"><i class="fa-solid fa-code"></i>
+          <h3>Frontend Development</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 90%"></div>
+          </div>
+          <p>HTML, CSS, JS, React</p>
+        </div>
+
+        <div class="skills-card"><i class="fa-solid fa-server"></i>
+          <h3>Backend Development</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%"></div>
+          </div>
+          <p>Node, Python, SQL</p>
+        </div>
+
+        <div class="skills-card"><i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h3>No-Code Expert</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 95%"></div>
+          </div>
+          <p>WordPress, Shopify</p>
+        </div>
+
+        <div class="skills-card"><i class="fa-solid fa-pen-nib"></i>
+          <h3>Design & Editing</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 88%"></div>
+          </div>
+          <p>PS, AI, PR</p>
+        </div>
+
+        <div class="skills-card"><i class="fa-solid fa-bolt"></i>
+          <h3>Additional Skills</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 88%"></div>
+          </div>
+          <p>Excel, Finance</p>
+        </div>
+
+      </div>
+    </div>
+
+    <section id="contact" class="contact-section">
+      <h2 class="contact-title">Let's Work Together 🤝</h2>
+      <p class="contact-description">
+        I'd love to collaborate with creative minds, innovative brands, and visionary teams.
+        Reach out via any platform below 👇
+      </p>
+
+      <div class="contact-details">
+        <p><strong>📍</strong> Ravi Chandan Jaiswal</p>
+        <p><strong>📧</strong> <a href="mailto:jaiswalravichandan@gmail.com">jaiswalravichandan@gmail.com</a></p>
+        <p><strong>📞</strong> <a href="tel:+918601239277">+91 8601236277</a></p>
+      </div>
+
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/ravi-chandan-jaiswal-6305b038b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/jaiswalravichandan-create"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/iamravichandanjaiswal"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/14RSKHUuka4/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://x.com/iamravichandan?t=E-iFKseUhvUlJrS99niuzA&s=08"><i class="fa-brands fa-x"></i></a>
+        <a href="https://wa.me/+919792035110"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </section>
+  </main>
+  <footer class="modern-footer">
+    <div class="footer-container">
+
+      <!-- BRAND AREA -->
+      <div class="footer-col brand">
+        <h2 class="footer-logo">Ravi Chandan Jaiswal</h2>
+        <p class="footer-about">
+          Turning ideas into powerful digital experiences — blending design, code, creativity and innovation.
+        </p>
+
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/ravi-chandan-jaiswal-6305b038b"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/jaiswalravichandan-create"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/iamravichandanjaiswal"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com/iamravichandan"><i class="fa-brands fa-x"></i></a>
+          <a href="https://wa.me/+919792035110"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- QUICK LINKS -->
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home"> Home</a></li>
+          <li><a href="#about"> About</a></li>
+          <li><a href="#skills"> Skills</a></li>
+          <li><a href="#contact"> Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul>
+         <a href="https://www.Lurnxo.com"><li> Lurnxo</li></a> 
+          <a href="https://www.Lurnxo.store"><li> Lurnxo Innovation</li></a> 
+          <a href="https://www.Lurnxo.site"><li> Lurnxo Career</li></a> 
+        </ul>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><i class="fa-solid fa-envelope"></i> jaiswalravichandan@gmail.com</li>
+          <li><i class="fa-solid fa-phone"></i> +91 8601236277</li>
+          <li><i class="fa-solid fa-location-dot"></i> Gorakhpur, India</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-line"></div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Ravi Chandan — All Rights Reserved 💙</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

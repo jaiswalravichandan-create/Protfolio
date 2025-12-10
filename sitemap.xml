@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!-- MAIN HOMEPAGE -->
+   <url>
+      <loc>https://ravichandanjaiswal.netlify.com/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <!-- MAIN SEO PAGE -->
+   <url>
+      <loc>https://ravichandanjaiswal.netlify.com/seo-ravi-chandan-jaiswal.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+
+   <!-- BOOSTER PAGE 1: BIOGRAPHY -->
+   <url>
+      <loc>https://ravichandanjaiswal.netlify.com/ravi-chandan-jaiswal-biography.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- BOOSTER PAGE 2: FOUNDER PAGE -->
+   <url>
+      <loc>https://ravichandanjaiswal.netlify.com/ravi-chandan-jaiswal-founder-lurnxo.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- BOOSTER PAGE 3: IMAGE GALLERY -->
+   <url>
+      <loc>https://ravichandanjaiswal.netlify.com/ravi-chandan-jaiswal-gallery.html</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+</urlset>
